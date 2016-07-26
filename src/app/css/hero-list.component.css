@@ -1,0 +1,71 @@
+.selected {
+    color: #FFF;
+    background-color: #666 !important;
+}
+
+.selected .delete {
+    background-color: #EEE !important;
+    color: #666 !important;
+}
+
+.heroes {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.heroes li {
+    overflow: hidden;
+    background-color: #EEE;
+    line-height: 2rem;
+    margin: 0.5rem;
+    border-radius: 4px;
+    position: relative;
+}
+
+.heroes li:hover {
+    left: 0.3rem;
+    color: #FFF;
+    background-color: #AAA;
+}
+
+.heroes .badge {
+    min-width: 3rem;
+    width: 10%;
+    display: inline-block;
+    line-height: 2rem;
+    text-align: center;
+    color: #FFF;
+    background-color: #607D8B;
+    position: relative;
+    border-radius: 4px 0 0 4px;
+    margin: 0 6px 0 0;
+}
+
+.heroes .delete {
+    margin: 0.4rem;
+    background-color: #666;
+    color: #FFF;
+    padding: 0 6px 0 6px;
+    line-height: 1.2rem;
+    float: right;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    cursor: hand;
+}
+
+.add {
+    background-color: #DDD;
+    color: #000;
+    padding: 4px 6px 4px 6px;
+    border-radius: 4px;
+    cursor: hand;
+    margin: 0.5rem;
+    display: inline-block;
+}
+
+.layout {
+    margin: 0.5rem;
+    border: 1px dashed #CECECE;
+    border-radius: 4px;
+}
